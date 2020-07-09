@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>br.com.empresa</groupId>
+  <artifactId>design-pattern-gof</artifactId>
+  <name>design-pattern-gof</name>
+  <version>0.0.1</version>
+  <!-- FIXME change it to the project's website -->
+ <url>http://www.example.com</url>
+  <description>
+    Sequence Design Pattern Comment
+    1 Factory Method Frequently used and also well utilized by other patterns.
+    2 Strategy Frequently used, so early familiarity helps.
+    3 Decorator Considered the “skin” to the “guts” of Strategy.
+    4 Composite Often used along with Chain of Responsibility, Interpreter, Iterator, and Visitor.
+    5 Iterator Looping through anything is widespread in computing, so why not through objects, too?
+    6 Template Method Helps to reinforce your understanding of Strategy and Factory Method.
+    7 Abstract Factory Create more than one type of a group of objects.
+    8 Builder Another way to create, similar to Factory Method and Abstract Factory.
+    9 Singleton You want only one copy of something.
+    10 Proxy Controlled access to a service is needed.
+    11 Adapter Gain access to a service with an incompatible interface.
+    12 Bridge Decouples the function from the implementation.
+    13 Mediator Yet another middleman.
+    14 Facade Single interface simplifying multiple interfaces in a subsystem.
+    15 Observer A form of the publish/subscribe model.
+    16 Chain of Responsibility Passes the message along until it’s dealt with.
+    17 Memento Backs up and restores an object’s state.
+    18 Command Separates invoker from performer.
+    19 Prototype Similar to cloning.
+    20 State Object appears to change class and alter its behavior.
+    21 Visitor Object that represents an operation that operates on elements of an object structure.
+    22 Flyweight Allows you to utilize sharing to support large numbers of objects efficiently.
+    23 Interpreter Defines a grammar and an interpreter that uses the grammar to interpret sentences.
+  </description>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+      <plugins>
+        <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
+        <plugin>
+          <artifactId>maven-clean-plugin</artifactId>
+          <version>3.1.0</version>
+        </plugin>
+        <!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
+        <plugin>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>3.0.2</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.8.0</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>2.22.1</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>3.0.2</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-install-plugin</artifactId>
+          <version>2.5.2</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-deploy-plugin</artifactId>
+          <version>2.8.2</version>
+        </plugin>
+        <!-- site lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#site_Lifecycle -->
+        <plugin>
+          <artifactId>maven-site-plugin</artifactId>
+          <version>3.7.1</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-project-info-reports-plugin</artifactId>
+          <version>3.0.0</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+</project>

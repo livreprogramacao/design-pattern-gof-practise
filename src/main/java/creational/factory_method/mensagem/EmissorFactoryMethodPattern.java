@@ -12,7 +12,7 @@ public class EmissorFactoryMethodPattern {
 
         // Notificação uma mensagem por push
         Emissor enviaPush = emissorMensagem.factoryMethodCreator(EmissorTipo.PUSH);
-        enviaPush.envia("Você em um novo evento...");
+        enviaPush.envia("Você tem um novo evento...");
 
         // Envia uma mensagem por SMS
         Emissor enviaSMS = emissorMensagem.factoryMethodCreator(EmissorTipo.SMS);

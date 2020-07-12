@@ -1,4 +1,4 @@
-package behavioral.strategy;
+package behavioral.strategy.algorithm;
 
 public class ConcreteStrategy2 implements StrategyIF {
     // Switch text beginning with "the".

@@ -1,4 +1,4 @@
-package behavioral.strategy;
+package behavioral.strategy.algorithm;
 
 public class Context {
     // Reference to the strategy.

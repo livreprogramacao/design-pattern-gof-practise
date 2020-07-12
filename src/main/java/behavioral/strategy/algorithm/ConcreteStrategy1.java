@@ -1,4 +1,4 @@
-package behavioral.strategy;
+package behavioral.strategy.algorithm;
 
 public class ConcreteStrategy1 implements StrategyIF {
     // Switch text to all upper case.

@@ -2,7 +2,7 @@ package creational.factory_method.mensagem;
 
 import creational.factory_method.mensagem.concrete.EmissorConcreteCreator;
 
-public class EmissorFactoryMethodPattern {
+public class MensagemFactoryMethodPattern {
     public static void main(String[] args) {
         Creator emissorMensagem = new EmissorConcreteCreator();
 

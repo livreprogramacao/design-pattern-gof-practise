@@ -1,5 +1,7 @@
 package behavioral.strategy.recuperar_objeto;
 
+import behavioral.strategy.recuperar_objeto.concrete.*;
+
 public class RecuperarObjetoStrategyPattern {
 
     public static void main(String[] args) {

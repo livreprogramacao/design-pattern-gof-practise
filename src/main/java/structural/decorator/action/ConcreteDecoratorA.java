@@ -1,4 +1,4 @@
-package structural.decorator;
+package structural.decorator.action;
 
 public class ConcreteDecoratorA extends Decorator {
     String addedVariable;

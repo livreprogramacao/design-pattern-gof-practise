@@ -1,4 +1,4 @@
-package structural.decorator;
+package structural.decorator.action;
 
 public class Decorator implements ComponentIF {
     final ComponentIF component = new ConcreteComponent();

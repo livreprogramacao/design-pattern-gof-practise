@@ -5,7 +5,7 @@ public class ConcreteBuilder implements BuilderIF {
 
     public void buildCustomer() {
         customer = new ConcreteCustomer();
-// You could add more customer processing here...
+        // You could add more customer processing here...
     }
 
     public CustomerIF getCustomer() {

@@ -13,8 +13,6 @@ public class CompositePattern {
 
         // Create branches
         Component branch1 = new Composite(" branch1");
-
-
         Component branch2 = new Composite(" branch2");
 
         // Create trunk

@@ -10,11 +10,9 @@ public abstract class Component {
     public void remove(Component c) { // override in concrete class;
     }
 
-// --Commented out by Inspection START (09/07/2020, 13:12):
-//    public Component getChild(int index) {
-//        return null;
-//    }
-// --Commented out by Inspection STOP (09/07/2020, 13:12)
+    public Component getChild(int index) {
+        return null;
+    }
 
     public String getName() {
         return null;

@@ -1,7 +1,7 @@
 package structural.decorator.curso_turma;
 
 public class TurmaPJ extends TurmaAbstract {
-    Turma turmaDecorada;
+    final Turma turmaDecorada;
 
     public TurmaPJ(Turma turma) {
         this.turmaDecorada = turma;

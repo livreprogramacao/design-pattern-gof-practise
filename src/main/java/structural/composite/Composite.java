@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 
 public class Composite extends Component {
-    String name;
+    final String name;
     final List<Component> children = new ArrayList<>();
 
     public Composite(String parm) {

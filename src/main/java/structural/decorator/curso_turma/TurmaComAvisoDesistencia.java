@@ -1,7 +1,7 @@
 package structural.decorator.curso_turma;
 
 public class TurmaComAvisoDesistencia implements Turma {
-    TurmaPromocional turmaPromocional;
+    final TurmaPromocional turmaPromocional;
 
     public TurmaComAvisoDesistencia(TurmaPromocional turma) {
         this.turmaPromocional = turma;

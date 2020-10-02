@@ -5,6 +5,7 @@ public class Adaptee {
         System.out.println("Adaptee constructed.");
     }
 
+    @SuppressWarnings("SameReturnValue")
     public String oldRequest() {
         return "Adaptee.oldRequest() called.";
     }

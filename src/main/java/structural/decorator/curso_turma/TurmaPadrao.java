@@ -20,7 +20,6 @@ public class TurmaPadrao extends TurmaAbstract implements Turma {
     @Override
     public Contrato gerarContrato(String... clausulas) {
         System.out.println("Lógica para criar um novo contrato na turma padrão.");
-        Contrato contrato = new Contrato();
-        return contrato;
+        return new Contrato();
     }
 }
